@@ -1,8 +1,7 @@
 #include <iostream>
 #include "nimfuncs.h"
 
-//using namespace std;
-
+using namespace std;
 
 int main()
 {
@@ -38,7 +37,7 @@ int main()
         } while (numSticks != 0);
 
         // game over, show who won
-        cout << " player " << player << " won!!\n";
+        std::cout << " player " << player << " won!!\n";
 
         // do they want to go again?
     } while ( playAgain() );
