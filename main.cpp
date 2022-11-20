@@ -37,7 +37,7 @@ int main()
         } while (numSticks != 0);
 
         // game over, show who won
-        std::cout << " player " << player << " won!!\n";
+        std::cout << "Player " << player << " won!!\n";
 
         // do they want to go again?
     } while ( playAgain() );
