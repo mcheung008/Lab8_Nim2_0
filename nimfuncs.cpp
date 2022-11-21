@@ -46,7 +46,8 @@ void showInstructions() {
     }
 
     int getMove(int num_sticks) {
-        const int MAX_STICKS = 11;
+        const int MAX_STICKS = num_sticks;
+
         bool numVal = true;
 
         while (numVal) {
