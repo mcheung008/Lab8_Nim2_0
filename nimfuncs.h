@@ -5,7 +5,7 @@
 #define LAB8_NIM2_0_NIMFUNCS_H
 
 
-// function prototypes
+// Function prototypes.
 void showInstructions();
 void showBoard(int num_sticks);
 int getMove(int num_sticks);
